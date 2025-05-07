@@ -1,6 +1,8 @@
+#Importamos los elementos necesarios
 import os
 from zipfile import ZipFile
 
+#se definne la estructura base del proyecto
 more_html = """<!DOCTYPE html>
 <html>
 <head>
@@ -47,6 +49,7 @@ contact_js = """function enviar() {
 }
 """
 
+#ruta em doden se crean los archivos (.HTLM, .JS, .CSS)
 project_path = r'D:\UCundinamarca\Semestre4\Taller7'
 
 # Guardar nuevos archivos
