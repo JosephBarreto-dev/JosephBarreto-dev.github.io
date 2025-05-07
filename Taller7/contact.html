@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <h2>Contactanos</h2>
+    <form id="contact-form" onsubmit="enviar(); return false;">
+        <label for="name">Nombre</label>
+        <input type="text" id="name"><br>
+
+        <label for="email">Correo</label>
+        <input type="text" id="email"><br>
+
+        <label for="msg">Mensaje</label>
+        <textarea id="msg"></textarea><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <script src="contact.js"></script>
+</body>
+</html>

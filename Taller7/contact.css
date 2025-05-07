@@ -1,0 +1,12 @@
+h2 {
+    color: lime;
+    background-color: black;
+}
+form {
+    width: 150%;
+    padding: 50px;
+}
+label, input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
