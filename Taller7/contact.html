@@ -7,20 +7,22 @@
 <body>
     <section class="main_cont">
         <h1>Contactanos</h1>
-        <div class="form_cont">
+        <section class="form_cont">
             <form id="contact-form" onsubmit="enviar(); return false;">
                 <label for="name">Nombre</label>
                 <input type="text" id="name"><br>
         
                 <label for="email">Correo</label>
-                <input type="text" id="email"><br>
+                <input type="email" id="email"><br>
         
                 <label for="msg">Mensaje</label>
                 <textarea id="msg"></textarea><br>
-        
-                <button type="submit">Enviar</button>
+                
+                <div class="btn_cont">
+                    <button type="submit">Enviar</button>
+                </div>
             </form>
-        </div>
+        </section>
     </section>   
     <script src="contact.js"></script>
 </body>

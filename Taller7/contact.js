@@ -10,5 +10,4 @@ function enviar() {
     }
     alert("Gracias por llenar todo, serás hackeado")
     //He quitado el XSS porque genera un riesgo en la seguridad
-    document.getElementById('msg').value = " ";
 }

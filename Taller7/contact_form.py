@@ -49,7 +49,7 @@ contact_js = """function enviar() {
 }
 """
 
-#ruta em doden se crean los archivos (.HTLM, .JS, .CSS)
+# Ruta donde se crean los archivos (.HTLM, .JS, .CSS)
 project_path = r'D:\UCundinamarca\Semestre4\Taller7'
 
 # Guardar nuevos archivos
@@ -63,7 +63,7 @@ with open(f"{project_path}/contact.js", "w") as f:
     f.write(contact_js)
 
 # Reempaquetar el proyecto en un nuevo archivo ZIP
-extended_zip_path = "D:/UCundinamarca/Semestre4/Proyecto_Web_Erroneo_Extendido.zip"
+extended_zip_path = os.path.join(project_path, "Proyecto_Web_Erroneo_Extendido.zip")
 with ZipFile(extended_zip_path, 'w') as zipf:
     for root, _, files in os.walk(project_path):
         for file in files:
